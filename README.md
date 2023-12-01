@@ -1,6 +1,21 @@
 <h1>Crowdfunding_ETL Readme </h1>
 
 <h2>Creating the Category and Subcategory DataFrames</h2>
+Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
+ A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
+ A "category" column that contains only the category titles
+ The following image shows this category DataFrame:
+ https://static.bc-edx.com/data/dl-1-2/m13/lms/img/category_DataFrame.png![image](https://github.com/chris-levine/Crowdfunding_ETL/assets/143288511/595db0e8-4e41-4c6b-a47a-099a8805e96f)
+
+Exported the category DataFrame as category.csv and saved it to the GitHub repository.
+Extracted and transformed the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
+ A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+ A "subcategory" column that contains only the subcategory titles
+ The following image shows this subcategory DataFrame:
+ https://static.bc-edx.com/data/dl-1-2/m13/lms/img/subcategory_DataFrame.png![image](https://github.com/chris-levine/Crowdfunding_ETL/assets/143288511/b7fe2fed-5ff5-4110-99f2-b66f49ca6aef)
+
+Exported the category DataFrame as category.csv and saved it to the GitHub repository
+Exported the subcategory DataFrame as subcategory.csv and saved it to the GitHub repository.
 
 <h2>Creating the Campaign DataFrame</h2>
 
