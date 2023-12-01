@@ -1,18 +1,12 @@
--- Dropping tables if they exist
-DROP TABLE IF EXISTS category;
-DROP TABLE IF EXISTS subcategory;
-DROP TABLE IF EXISTS contacts;
-DROP TABLE IF EXISTS campaign;
-
 --Create category table
 CREATE TABLE IF NOT EXISTS category (
-    category_id VARCHAR(255) PRIMARY KEY,
+    category_id VARCHAR(255),
     category VARCHAR(255)
 );
 
 --Create subcategory table
 CREATE TABLE IF NOT EXISTS subcategory (
-    subcategory_id VARCHAR(255) PRIMARY KEY,
+    subcategory_id VARCHAR(255),
     subcategory VARCHAR(255)
 );
 
@@ -40,8 +34,6 @@ CREATE TABLE IF NOT EXISTS campaign (
     end_date DATE,
     category_id VARCHAR(255),
     subcategory_id VARCHAR(255),
-	FOREIGN KEY (category_id) REFERENCES category (category_id),
-	FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id),
 	FOREIGN KEY (contact_id) REFERENCES contacts (contact_id)
 );
 
