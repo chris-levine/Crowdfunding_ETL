@@ -33,17 +33,25 @@ CREATE TABLE IF NOT EXISTS campaign (
     description VARCHAR(255),
     goal FLOAT,
     pledged FLOAT,
+	outcome VARCHAR(255),
     backers_count INT,
     country VARCHAR(255),
     currency VARCHAR(255),
     launched_date DATE,
-    end_date DATE,
-    category_id VARCHAR(255),
-    subcategory_id VARCHAR(255),
-	FOREIGN KEY (category_id) REFERENCES category (category_id),
-	FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id),
-	FOREIGN KEY (contact_id) REFERENCES contacts (contact_id)
+    end_date DATE
+	
 );
+ALTER TABLE campaign ADD COLUMN category_id VARCHAR(255);
+ALTER TABLE campaign ADD CONSTRAINT FK_catid
+FOREIGN KEY (category_id) REFERENCES category (category_id);
+
+ALTER TABLE campaign ADD COLUMN subcategory_id VARCHAR(255);
+ALTER TABLE campaign ADD CONSTRAINT FK_subcatid
+FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id);
+
+ALTER TABLE campaign ADD CONSTRAINT FK_contactid
+FOREIGN KEY (contact_id) REFERENCES contacts (contact_id);
+
 
 SELECT * FROM category
 SELECT * FROM subcategory
