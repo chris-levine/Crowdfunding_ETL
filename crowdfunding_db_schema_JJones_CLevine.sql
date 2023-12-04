@@ -34,10 +34,7 @@ CREATE TABLE IF NOT EXISTS campaign (
     launched_date DATE,
     end_date DATE,
     category_id VARCHAR(255),
-    subcategory_id VARCHAR(255),
-	FOREIGN KEY (category_id) REFERENCES category (category_id),
-	FOREIGN KEY (subcategory_id) REFERENCES subcategory (subcategory_id),
-	FOREIGN KEY (contact_id) REFERENCES contacts (contact_id)
+    subcategory_id VARCHAR(255)
 );
 ALTER TABLE campaign ADD COLUMN category_id VARCHAR(255);
 ALTER TABLE campaign ADD CONSTRAINT FK_catid
