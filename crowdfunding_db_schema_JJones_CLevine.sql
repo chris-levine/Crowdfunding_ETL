@@ -32,9 +32,7 @@ CREATE TABLE IF NOT EXISTS campaign (
     country VARCHAR(255),
     currency VARCHAR(255),
     launched_date DATE,
-    end_date DATE,
-    category_id VARCHAR(255),
-    subcategory_id VARCHAR(255)
+    end_date DATE
 );
 ALTER TABLE campaign ADD COLUMN category_id VARCHAR(255);
 ALTER TABLE campaign ADD CONSTRAINT FK_catid
