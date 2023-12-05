@@ -35,5 +35,12 @@
 <blockquote>Using the category, subcategory, campaign, and contacts csv files, SQL was used to create tables:</blockquote>
 
   ![image](https://github.com/chris-levine/Crowdfunding_ETL/assets/15304495/dc76fe73-2672-4100-b9d4-b522d30e4822)
-  ![image](https://github.com/chris-levine/Crowdfunding_ETL/assets/15304495/cdf5e595-740e-4100-b4d4-a31a20439b5b)
+<img width="636" alt="Screenshot 2023-12-04 at 6 56 18 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/ffa230e2-2c77-42f5-b22b-f5d347104867">
 
+<blockquote>Imported CSV files with data output on the tables</blockquote>
+
+<img width="399" alt="Screenshot 2023-12-04 at 6 48 09 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/c5b5b29c-5198-44d9-9a30-498f56853f26">
+<img width="392" alt="Screenshot 2023-12-04 at 6 48 21 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/0ce396b5-552c-4f09-9c20-a6881a42f2cb">
+<img width="726" alt="Screenshot 2023-12-04 at 6 48 32 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/0da9a00a-6bb7-47fb-a5c2-06fb9a5ee391">
+<img width="1015" alt="Screenshot 2023-12-04 at 6 48 49 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/57270d6d-c1ea-49d3-8efd-8681cc1c5ab3">
+<img width="1020" alt="Screenshot 2023-12-04 at 6 48 56 PM" src="https://github.com/chris-levine/Crowdfunding_ETL/assets/143342297/fa46968e-1653-4cf8-b872-0404bbd338f4">
